@@ -1,0 +1,13 @@
+Concurrency means that an application is making progress on more than one task at the same time. It is dealing with a lot of things at once.
+Parallelism means that an application splits its tasks up into smaller sub-tasks which can be processed in parallel,
+for instance on multiple CPUs at the exact same time. It is doing alot of things at once.
+
+For easy explanation, concurrency is like you are walking and eating simultaneously. While you are walking, you eat some foods. It's either you finished
+the food first or you finished your walking first. The tasks is done but not at the same time.
+Parallelism is like you are working in a group. If we stick to walking and eating example, then you either walking or eating. And your other teammate is
+doing other task. Maybe you are eating and your teammate is walking or you are walking and your teammate is eating. Either way, both of you doing the tasks
+at the same time.
+
+This definition says that, in concurrent systems, multiple actions can be in progress (may not be executed) at the same time. 
+Meanwhile, multiple actions are simultaneously executed in parallel systems. In fact, concurrency and parallelism are conceptually 
+overlapped to some degree, but “in progress” clearly makes them different.
